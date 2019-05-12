@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import objects.buses.Bus;
 
-public class Register extends Element {
+public class Register extends Element implements Runnable {
 
 	private ArrayList<Integer> data;
 	
@@ -60,4 +60,8 @@ public class Register extends Element {
 		}
 	}
 
+	@Override
+	public void run() {
+		signalChanged();
+	}
 }

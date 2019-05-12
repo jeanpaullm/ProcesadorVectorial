@@ -18,7 +18,7 @@ import java.util.ArrayList;
  * output vec7
  *
  */
-public class DataMemory extends Element {
+public class DataMemory extends Element implements Runnable {
 
     private ArrayList<Integer> data;
 
@@ -67,4 +67,8 @@ public class DataMemory extends Element {
         }
     }
 
+    @Override
+    public void run() {
+        signalChanged();
+    }
 }

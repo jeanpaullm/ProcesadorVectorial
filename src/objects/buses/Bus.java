@@ -34,4 +34,8 @@ public class Bus {
 		output.add(element);
 	}
 
+	public ArrayList<Element> getOutput() {
+		return this.output;
+	}
+
 }

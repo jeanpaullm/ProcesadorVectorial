@@ -4,11 +4,12 @@ import java.util.ArrayList;
 
 import objects.buses.Bus;
 import objects.buses.BranchBus;
+import objects.buses.Clk;
 import objects.elements.*;
 
 public class Procesor {
 	
-	private Clock clock; 
+	private Bus clock;
 	private ArrayList<Element> registers;
 	
 	public Procesor() {
@@ -36,7 +37,7 @@ public class Procesor {
         instructions.add(0b00000_0000_00000000000000000000000);
         instructions.add(0b00000_0000_00000000000000000000000);
 
-        instructions.add(0b10001_0000_0001_0001_000000000000000);
+        instructions.add(0b10010_0000_0001_0001_000000000000000);
         instructions.add(0b00000_0000_00000000000000000000000);
         instructions.add(0b00000_0000_00000000000000000000000);
         instructions.add(0b00000_0000_00000000000000000000000);
@@ -56,9 +57,9 @@ public class Procesor {
         data.add(9);
         data.add(10);
 
-		this.clock = new Clock();
-		Bus clockBus = new Bus();
-		clock.addOutput(clockBus);
+		//this.clock = new Clock();
+		this.clock = new Clk();
+		//clock.addOutput(clockBus);
 		
 		//FETCH
 		Element pc = new Register();
@@ -69,7 +70,7 @@ public class Procesor {
 		Bus adderOutBus  = new Bus();
 		Bus instMemOutBus  = new Bus(); //->
 		
-		pc.addClock(clockBus);
+		pc.addClock(clock);
 		pc.addInput(adderOutBus);
 		pc.addOutput(pcOutBus);
 		
@@ -118,7 +119,7 @@ public class Procesor {
         Bus rv26DBus = new Bus(); //->
         Bus rv27DBus = new Bus(); //->
 		
-		fdRegister.addClock(clockBus);
+		fdRegister.addClock(clock);
 		fdRegister.addInput(instMemOutBus);
 		fdRegister.addOutput(fdRegisterOutBus);
 		
@@ -129,7 +130,7 @@ public class Procesor {
 		branch.addOutput(a3DBus);
 		branch.addOutput(controlUnitInBus);
 
-		registerMemory.addClock(clockBus);
+		registerMemory.addClock(clock);
 		registerMemory.addInput(a1DBus);
 		registerMemory.addInput(a2DBus);
 		registerMemory.addOutput(r1DBus);
@@ -197,7 +198,7 @@ public class Procesor {
         Bus aluV7EBus = new Bus(); //->
 
 
-        deRegister.addClock(clockBus);
+        deRegister.addClock(clock);
 
         deRegister.addInput(writeEnableRegisterDBus);
         deRegister.addInput(writeEnableVectorDBus);
@@ -335,7 +336,7 @@ public class Procesor {
         Bus aluV6MBus = new Bus(); //->
         Bus aluV7MBus = new Bus(); //->
 
-        emRegister.addClock(clockBus);
+        emRegister.addClock(clock);
 
         emRegister.addInput(writeEnableRegisterEBus);
         emRegister.addInput(writeEnableVectorEBus);
@@ -386,7 +387,7 @@ public class Procesor {
         emRegister.addOutput(aluV7MBus);
 
         Element dataMemory = new DataMemory(data);
-        dataMemory.addClock(clockBus);
+        dataMemory.addClock(clock);
         dataMemory.addRegisterControl(memWEMBus);
 
         dataMemory.addInput(r1MBus);
@@ -435,7 +436,7 @@ public class Procesor {
         Bus aluV6WBus = new Bus();
         Bus aluV7WBus = new Bus();
 		
-		mwRegister.addClock(clockBus);
+		mwRegister.addClock(clock);
 
         mwRegister.addInput(writeEnableRegisterMBus);
         mwRegister.addInput(writeEnableVectorMBus);
@@ -537,13 +538,13 @@ public class Procesor {
 		registers.add(mwRegister);
 	}
 
-	public Clock getClock() {
-		return this.clock;
+	public Clk getClock() {
+		return (Clk)(this.clock);
 	}
 	
 	public void debug() {
 		for(int i = 0; i < registers.size(); i++) {
-			((Register)registers.get(i)).printState();
+			registers.get(i).printState();
 		}
 	}
 	

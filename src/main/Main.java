@@ -1,9 +1,6 @@
 package main;
 
-import objects.elements.Clock;
 import objects.procesor.Procesor;
-import objects.procesortest.Hijo;
-import objects.procesortest.Padre;
 
 public class Main {
 
@@ -187,38 +184,52 @@ public class Main {
 		
 		Procesor procesor = new Procesor();
 		procesor.debug();
-		((Clock) procesor.getClock()).tickTack();
+		procesor.getClock().createThreads();
+		procesor.getClock().tickTack();
 		procesor.debug();
-		((Clock) procesor.getClock()).tickTack();
-		procesor.debug();
-		((Clock) procesor.getClock()).tickTack();
-		procesor.debug();
-		((Clock) procesor.getClock()).tickTack();
-		procesor.debug();
-		((Clock) procesor.getClock()).tickTack();
-		procesor.debug();
-		((Clock) procesor.getClock()).tickTack();
+        procesor.getClock().tickTack();
         procesor.debug();
-        ((Clock) procesor.getClock()).tickTack();
+        procesor.getClock().tickTack();
         procesor.debug();
-        ((Clock) procesor.getClock()).tickTack();
+        procesor.getClock().tickTack();
         procesor.debug();
-        ((Clock) procesor.getClock()).tickTack();
+        procesor.getClock().tickTack();
         procesor.debug();
-        ((Clock) procesor.getClock()).tickTack();
+        procesor.getClock().tickTack();
         procesor.debug();
-        ((Clock) procesor.getClock()).tickTack();
+        procesor.getClock().tickTack();
         procesor.debug();
-        ((Clock) procesor.getClock()).tickTack();
+        procesor.getClock().tickTack();
         procesor.debug();
-        ((Clock) procesor.getClock()).tickTack();
+        procesor.getClock().tickTack();
         procesor.debug();
-        ((Clock) procesor.getClock()).tickTack();
+        procesor.getClock().tickTack();
         procesor.debug();
-        ((Clock) procesor.getClock()).tickTack();
+        procesor.getClock().tickTack();
         procesor.debug();
-        ((Clock) procesor.getClock()).tickTack();
-		
+        procesor.getClock().tickTack();
+        procesor.debug();
+        procesor.getClock().tickTack();
+        procesor.debug();
+        procesor.getClock().tickTack();
+        procesor.debug();
+        procesor.getClock().tickTack();
+        procesor.debug();
+        procesor.getClock().tickTack();
+        procesor.debug();
+        procesor.getClock().tickTack();
+        procesor.debug();
+        procesor.getClock().tickTack();
+        procesor.debug();
+        procesor.getClock().tickTack();
+        procesor.debug();
+        procesor.getClock().tickTack();
+        procesor.debug();
+        procesor.getClock().tickTack();
+        procesor.debug();
+        procesor.getClock().tickTack();
+        procesor.debug();
+
 	}
 
 }

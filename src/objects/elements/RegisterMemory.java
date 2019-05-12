@@ -27,7 +27,7 @@ import objects.buses.Bus;
  * @author jeanpaul
  *
  */
-public class RegisterMemory extends Element {
+public class RegisterMemory extends Element implements Runnable {
 	
 	private ArrayList<Integer> registers; //8 registros
 	private ArrayList<ArrayList<Integer>> vectorialRegisters; // 8 VectorialRegister
@@ -103,4 +103,8 @@ public class RegisterMemory extends Element {
 		}
 	}
 
+	@Override
+	public void run() {
+		signalChanged();
+	}
 }
