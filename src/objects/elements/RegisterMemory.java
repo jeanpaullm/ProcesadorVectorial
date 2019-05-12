@@ -61,7 +61,7 @@ public class RegisterMemory extends Element implements Runnable {
 				if(this.control.get(1).getState() == 1) {
 					int vectorialIndex = input.get(2).getState();
 					for(int i = 0; i < 8; i++) {
-						vectorialRegisters.get(vectorialIndex).set(i, input.get(4 + i).getState());
+						vectorialRegisters.get(vectorialIndex-8).set(i, input.get(4 + i).getState());
 						System.out.println("Register Memory: value written in vectorial reg " + input.get(2).getState());
 					}
 				}
@@ -76,7 +76,7 @@ public class RegisterMemory extends Element implements Runnable {
 			else if(this.input.get(0).getState() < 16){
 				this.output.get(0).setState(0); 									// set R1D to zero
 				for (int i = 0; i < 8; i++) {
-					this.output.get(i + 1).setState(vectorialRegisters.get(input.get(0).getState()).get(i)); //output RV1D
+					this.output.get(i + 1).setState(vectorialRegisters.get(input.get(0).getState()-8).get(i)); //output RV1D
 				}
 			}
 			else {
@@ -101,6 +101,14 @@ public class RegisterMemory extends Element implements Runnable {
 		else {
 			connectionError();
 		}
+	}
+
+	public ArrayList<Integer> getRegisters() {
+		return this.registers;
+	}
+
+	public ArrayList<ArrayList<Integer>> getVectorialRegisters() {
+		return this.vectorialRegisters;
 	}
 
 	@Override

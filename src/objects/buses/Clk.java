@@ -9,6 +9,9 @@ import java.util.ArrayList;
 
 public class Clk extends Bus {
 
+
+    int counter = 0;
+    private boolean running;
     private boolean threaded;
     private ArrayList<Thread> threads;
 
@@ -17,6 +20,7 @@ public class Clk extends Bus {
         this.state = 0;
         this.threads = new ArrayList<Thread>();
         this.threaded = false;
+        this.running = true;
     }
     public void createThreads() {
         for(int i = 0; i < this.output.size(); i++) {
@@ -40,19 +44,24 @@ public class Clk extends Bus {
     }
 
     public void tick() {
-        if(this.state == 0 ) {
-            this.state = 1;
-            clockChanged();
+        if(running) {
+            if (this.state == 0) {
+                this.state = 1;
+                clockChanged();
+            } else {
+                this.state = 0;
+                this.counter++;
+                clockChanged();
+            }
         }
         else {
-            this.state = 0;
-            clockChanged();
+            System.out.println("Clock: Stopped");
         }
     }
 
     public void clockChanged() {
         if (output.size() > 0) {
-            System.out.println("\n");
+           // System.out.println("\n");
             System.out.println("----- clock tick " + state + " -----");
             if (threaded) {
                 for (int i = 0; i < threads.size(); i++) {
@@ -75,6 +84,14 @@ public class Clk extends Bus {
         else {
             System.out.println("Error: Clk conections not defined properly");
         }
+    }
+
+    public void stop() {
+        this.running = false;
+    }
+
+    public boolean isRunning() {
+        return this.running;
     }
 
 }

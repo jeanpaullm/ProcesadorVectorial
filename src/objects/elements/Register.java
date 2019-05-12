@@ -64,4 +64,13 @@ public class Register extends Element implements Runnable {
 	public void run() {
 		signalChanged();
 	}
+
+	public ArrayList<Bus> getInputs() {
+	  return input;
+  }
+
+  public ArrayList<Integer> getData() {
+	  return data;
+  }
+
 }
