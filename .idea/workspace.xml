@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b296f10-5066-40f1-b74e-bcd5c2a15d3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/lena_gray.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/objects/buses/Clk.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/buses/Clk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/objects/elements/Clock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/objects/elements/ControlUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/ControlUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/objects/elements/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/objects/elements/RegisterMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/RegisterMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/objects/elements/VectorialAlu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/VectorialAlu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/objects/elements/VectorialMux.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/VectorialMux.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/elements/DataMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/DataMemory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/objects/procesor/Procesor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/procesor/Procesor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/buses/Clk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/buses/Clk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/elements/Clock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/elements/ControlUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/elements/ControlUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/elements/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/elements/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/elements/RegisterMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/elements/RegisterMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/elements/VectorialAlu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/elements/VectorialAlu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/elements/VectorialMux.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/elements/VectorialMux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/elements/DataMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/elements/DataMemory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/procesor/Procesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/procesor/Procesor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,10 +27,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="82">
+              <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1351#1360#0" expanded="true" />
+                <element signature="e#940#949#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/images/unencripted_lenna.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/images/encripted_lenna.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/images/Output.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/objects/elements/Register.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-374">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#1489#1490#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/objects/elements/RegisterMemory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="290">
               <caret line="78" column="90" selection-start-line="78" selection-start-column="90" selection-end-line="78" selection-end-column="90" />
               <folding>
                 <element signature="e#3338#3339#0" expanded="true" />
@@ -63,26 +80,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/objects/elements/ControlUnit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#2581#2582#0" expanded="true" />
-                <element signature="e#2603#2604#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/objects/procesor/Procesor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="586" column="29" lean-forward="true" selection-start-line="586" selection-start-column="29" selection-end-line="586" selection-end-column="29" />
+            <state relative-caret-position="141">
+              <caret line="590" column="8" selection-start-line="590" selection-start-column="8" selection-end-line="590" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#20128#20129#0" expanded="true" />
@@ -92,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/objects/buses/Clk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="858">
               <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,15 +105,6 @@
                 <element signature="e#2544#2545#0" expanded="true" />
                 <element signature="e#2579#2580#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/objects/buses/Bus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -130,12 +122,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/objects/elements/VectorialAlu.java">
+        <entry file="file://$PROJECT_DIR$/src/objects/elements/DataMemory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="300">
+              <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1781#1782#0" expanded="true" />
+                <element signature="e#1812#1813#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/objects/elements/Mux.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/Alu.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/Branch.java" />
-        <option value="$PROJECT_DIR$/src/objects/elements/DataMemory.java" />
         <option value="$PROJECT_DIR$/src/objects/buses/Bus.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/VectorialAlu.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/VectorialMux.java" />
@@ -191,16 +184,17 @@
         <option value="$PROJECT_DIR$/src/objects/elements/RegisterMemory.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/Clock.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/ControlUnit.java" />
-        <option value="$PROJECT_DIR$/src/objects/procesor/Procesor.java" />
-        <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/objects/buses/Clk.java" />
+        <option value="$PROJECT_DIR$/src/objects/procesor/Procesor.java" />
+        <option value="$PROJECT_DIR$/src/objects/elements/DataMemory.java" />
+        <option value="$PROJECT_DIR$/src/main/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="1048" />
-    <option name="width" value="1366" />
-    <option name="height" value="770" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="y" value="-2" />
+    <option name="width" value="840" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -221,6 +215,18 @@
               <item name="procesadorVectorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="procesadorVectorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="procesadorVectorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="procesadorVectorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="procesadorVectorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="procesadorVectorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="procesadorVectorial" type="b2602c69:ProjectViewProjectNode" />
@@ -314,10 +320,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="1075" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="-2" width="840" height="1052" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41561714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,12 +333,12 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.5487013" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.29153094" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.29144096" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.36319217" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -344,34 +350,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32899022" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.5487013" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.29153094" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.36319217" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,18 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/elements/DataMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -508,36 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/elements/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1575#1576#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/util/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="4604" column="26" selection-start-line="4604" selection-start-column="26" selection-end-line="4604" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/elements/RegisterMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="78" column="90" selection-start-line="78" selection-start-column="90" selection-end-line="78" selection-end-column="90" />
-          <folding>
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3360#3361#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,16 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/elements/VectorialMux.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/elements/ControlUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -600,31 +530,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/procesor/Procesor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="586" column="29" lean-forward="true" selection-start-line="586" selection-start-column="29" selection-end-line="586" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#20128#20129#0" expanded="true" />
-            <element signature="e#20159#20160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/buses/Clk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="858">
           <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -635,6 +543,83 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/elements/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/procesor/Procesor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="590" column="8" selection-start-line="590" selection-start-column="8" selection-end-line="590" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#20128#20129#0" expanded="true" />
+            <element signature="e#20159#20160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/elements/VectorialMux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/elements/DataMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/Output.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/elements/RegisterMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="78" column="90" selection-start-line="78" selection-start-column="90" selection-end-line="78" selection-end-column="90" />
+          <folding>
+            <element signature="e#3338#3339#0" expanded="true" />
+            <element signature="e#3360#3361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1351#1360#0" expanded="true" />
+            <element signature="e#940#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/unencripted_lenna.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/encripted_lenna.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">

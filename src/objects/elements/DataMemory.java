@@ -57,7 +57,7 @@ public class DataMemory extends Element implements Runnable {
             if(clock.getState() == 1 && control.get(0).getState() == 1) { //SV
                 System.out.println(this.type  + " storing vector at " + baseIndex);
                 for(int i = 0; i < 8; i++) {
-                    data.set(baseIndex + 1, input.get(i + 1).getState());
+                    data.set(baseIndex + i, input.get(i + 1).getState());
                 }
             }
 

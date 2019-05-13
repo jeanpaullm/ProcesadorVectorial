@@ -588,7 +588,7 @@ public class Procesor {
     getClock().createThreads();
     while (getClock().isRunning()) {
       getClock().tickTack();
-      debug();
+      //debug();
     }
   }
 
