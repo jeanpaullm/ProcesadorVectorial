@@ -74,6 +74,24 @@ public class ControlUnit extends Element {
 				this.output.get(4).setState(1); //ALU_OP
 				this.output.get(5).setState(1); //ALU_MUX
 			}
+      else if(opCode == 20) {
+        System.out.println("SRCV");
+        this.output.get(0).setState(0); //WER
+        this.output.get(1).setState(1); //WEV
+        this.output.get(2).setState(0); //WED
+        this.output.get(3).setState(1); //ALU_RESULT
+        this.output.get(4).setState(9); //ALU_OP
+        this.output.get(5).setState(0); //ALU_MUX
+      }
+      else if(opCode == 21) {
+        System.out.println("SLCV");
+        this.output.get(0).setState(0); //WER
+        this.output.get(1).setState(1); //WEV
+        this.output.get(2).setState(0); //WED
+        this.output.get(3).setState(1); //ALU_RESULT
+        this.output.get(4).setState(10); //ALU_OP
+        this.output.get(5).setState(0); //ALU_MUX
+      }
 			else if(opCode == 31) {
 				System.out.println("END");
 				((Clk)this.clock).stop();

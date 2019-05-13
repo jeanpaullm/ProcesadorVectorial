@@ -88,6 +88,8 @@ public class Clk extends Bus {
 
     public void stop() {
         this.running = false;
+        System.out.println("Execution ended in " + counter + " clock cicles");
+        System.out.println("At 1GHz it would have taken " + counter * 0.000001  + " miliseconds");
     }
 
     public boolean isRunning() {

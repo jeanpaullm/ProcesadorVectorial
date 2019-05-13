@@ -9,6 +9,7 @@ import objects.elements.*;
 
 public class Procesor {
 
+  private boolean debug;
   private Bus clock;
   private Register pc;
   private Register fdRegister;
@@ -20,7 +21,7 @@ public class Procesor {
 
   public Procesor(ArrayList<Integer> instructions, ArrayList<Integer> data) {
 
-
+    this.debug = false;
     this.clock = new Clk();
 
     // -------------------------------- FETCH  --------------------------------
@@ -584,11 +585,21 @@ public class Procesor {
 
   }
 
+  public void setPrivateKey(int key) {
+    registerMemory.getRegisters().set(2, key);
+  }
+
+  public void setPrivateKey(ArrayList<Integer> vector) {
+    registerMemory.getVectorialRegisters().set(2,vector);
+  }
+
   public void runThreaded() {
     getClock().createThreads();
     while (getClock().isRunning()) {
       getClock().tickTack();
-      //debug();
+      if (debug) {
+        debug();
+      }
     }
   }
 
