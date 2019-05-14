@@ -28,7 +28,8 @@ import objects.buses.Bus;
  *
  */
 public class RegisterMemory extends Element implements Runnable {
-	
+
+	private boolean debug;
 	private ArrayList<Integer> registers; //8 registros
 	private ArrayList<ArrayList<Integer>> vectorialRegisters; // 8 VectorialRegister
 
@@ -36,6 +37,7 @@ public class RegisterMemory extends Element implements Runnable {
 		super("register memory");
 		this.control = new ArrayList<Bus>();
 		this.registers = new ArrayList<Integer>();
+		this.debug = false;
 		for (int i = 0; i < 8; i++) {
 			registers.add(0);
 		}
@@ -56,13 +58,17 @@ public class RegisterMemory extends Element implements Runnable {
 			if(this.clock.getState() == 1) {
 				if(this.control.get(0).getState() == 1) {
 					registers.set(input.get(2).getState(), input.get(3).getState());
-					System.out.println("Register Memory: value " + input.get(3).getState() + " written in register " + input.get(2).getState());
+					if(debug) {
+						System.out.println("Register Memory: value " + input.get(3).getState() + " written in register " + input.get(2).getState());
+					}
 				}
 				if(this.control.get(1).getState() == 1) {
 					int vectorialIndex = input.get(2).getState();
 					for(int i = 0; i < 8; i++) {
 						vectorialRegisters.get(vectorialIndex-8).set(i, input.get(4 + i).getState());
-						System.out.println("Register Memory: value written in vectorial reg " + input.get(2).getState());
+						if(debug) {
+							System.out.println("Register Memory: value written in vectorial reg " + input.get(2).getState());
+						}
 					}
 				}
 			}
@@ -115,4 +121,9 @@ public class RegisterMemory extends Element implements Runnable {
 	public void run() {
 		signalChanged();
 	}
+
+	public void setDebug(boolean debug){
+		this.debug = debug;
+	}
+
 }

@@ -13,6 +13,7 @@ public class Clk extends Bus {
     int counter = 0;
     private boolean running;
     private boolean threaded;
+    private boolean debug;
     private ArrayList<Thread> threads;
 
     public Clk() {
@@ -21,6 +22,7 @@ public class Clk extends Bus {
         this.threads = new ArrayList<Thread>();
         this.threaded = false;
         this.running = true;
+        this.debug = false;
     }
     public void createThreads() {
         for(int i = 0; i < this.output.size(); i++) {
@@ -61,8 +63,9 @@ public class Clk extends Bus {
 
     public void clockChanged() {
         if (output.size() > 0) {
-           // System.out.println("\n");
-            System.out.println("----- clock tick " + state + " -----");
+            if(debug) {
+                System.out.println("----- clock tick " + state + " -----");
+            }
             if (threaded) {
                 for (int i = 0; i < threads.size(); i++) {
                     threads.get(i).run();
@@ -95,5 +98,10 @@ public class Clk extends Bus {
     public boolean isRunning() {
         return this.running;
     }
+
+    public void setDebug(boolean debug){
+        this.debug = debug;
+    }
+
 
 }

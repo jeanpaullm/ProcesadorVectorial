@@ -2,27 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b296f10-5066-40f1-b74e-bcd5c2a15d3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/ImageProcesing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/images/Output.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/images/encripted_lenna.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/images/lena_gray.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/images/lenna.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/images/unencripted_lenna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/images/lenna_add_encripted.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/images/lenna_srcv_encripted.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/images/lenna_srcv_encripted.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/buses/BranchBus.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/buses/BranchBus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/buses/Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/buses/Bus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/objects/buses/Clk.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/buses/Clk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/objects/elements/Alu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/elements/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/Adder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/elements/Branch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/Branch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/objects/elements/ControlUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/ControlUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/elements/DataMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/DataMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/elements/Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/Element.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/elements/InstructionMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/InstructionMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/elements/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/elements/RegisterMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/RegisterMemory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/objects/elements/VectorialAlu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/VectorialAlu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/objects/elements/VectorialMux.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/elements/VectorialMux.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/objects/procesor/Procesor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/objects/procesor/Procesor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Output.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/encripted_lenna.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/lena_gray.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/lenna.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/unencripted_lenna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/lenna_add_encripted.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/lenna_srcv_encripted.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/lenna_srcv_unnencripted.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/lenna_xor_encripted.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/lenna_xor_unencripted.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/buses/Clk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/buses/Clk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/elements/Alu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/elements/ControlUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/elements/ControlUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/elements/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/elements/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/elements/RegisterMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/elements/RegisterMemory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/elements/VectorialAlu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/elements/VectorialAlu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/procesor/Procesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/procesor/Procesor.java" afterDir="false" />
     </list>
@@ -43,65 +51,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-688">
-              <caret line="298" column="51" selection-start-line="298" selection-start-column="51" selection-end-line="298" selection-end-column="51" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/ImageProcesing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="480" column="33" selection-start-line="480" selection-start-column="33" selection-end-line="480" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8113#8122#0" expanded="true" />
-                <element signature="e#8710#8719#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/images/lenna_custom_encripted.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/images/lenna_add_encripted.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/lenna.jpg">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/images/lenna_add_unnencripted.jpg">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/objects/procesor/Procesor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="601" column="7" selection-start-line="601" selection-start-column="7" selection-end-line="601" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#35676#35677#0" expanded="true" />
-                <element signature="e#35697#35698#0" expanded="true" />
-                <element signature="e#35769#35770#0" expanded="true" />
-                <element signature="e#35820#35821#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/objects/elements/ControlUnit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="74" column="49" lean-forward="true" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/objects/elements/VectorialAlu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -126,13 +106,14 @@
       <find>XO</find>
       <find>Error</find>
       <find>error</find>
-      <find>xor</find>
       <find>xorv</find>
       <find>sv</find>
       <find>control</find>
       <find>storing vector</find>
       <find>ADD</find>
       <find>mux</find>
+      <find>xor</find>
+      <find>bra</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,20 +132,22 @@
         <option value="$PROJECT_DIR$/src/objects/buses/Bus.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/VectorialMux.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/Element.java" />
-        <option value="$PROJECT_DIR$/src/objects/elements/Register.java" />
-        <option value="$PROJECT_DIR$/src/objects/elements/RegisterMemory.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/Clock.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/DataMemory.java" />
+        <option value="$PROJECT_DIR$/src/objects/elements/Register.java" />
         <option value="$PROJECT_DIR$/src/objects/buses/Clk.java" />
+        <option value="$PROJECT_DIR$/src/objects/elements/RegisterMemory.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/ControlUnit.java" />
         <option value="$PROJECT_DIR$/src/objects/elements/VectorialAlu.java" />
-        <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/objects/procesor/Procesor.java" />
+        <option value="$PROJECT_DIR$/src/main/ImageProcesing.java" />
+        <option value="$PROJECT_DIR$/src/main/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="1250" />
+    <option name="x" value="106" />
+    <option name="y" value="170" />
     <option name="width" value="1221" />
     <option name="height" value="660" />
   </component>
@@ -292,9 +275,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="1075" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="-2" width="1680" height="1052" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20073439" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +287,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.5487013" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.21498372" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.52979416" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.36319217" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -321,24 +304,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/objects/elements/Register.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/objects/elements/Register.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/objects/elements/PC.java">
@@ -380,17 +345,6 @@
           <folding>
             <element signature="e#78#79#0" expanded="true" />
             <element signature="e#97#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/elements/Branch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -452,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/buses/Bus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/elements/Element.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -466,40 +413,6 @@
           <folding>
             <element signature="e#764#765#0" expanded="true" />
             <element signature="e#792#793#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/elements/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/buses/Clk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="91" column="75" selection-start-line="91" selection-start-column="75" selection-end-line="91" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2544#2545#0" expanded="true" />
-            <element signature="e#2579#2580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/elements/RegisterMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="78" column="90" selection-start-line="78" selection-start-column="90" selection-end-line="78" selection-end-column="90" />
-          <folding>
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3360#3361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -524,18 +437,6 @@
     <entry file="file://$PROJECT_DIR$/src/images/lenna.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/elements/DataMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/encripted_lenna.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -545,19 +446,101 @@
     <entry file="file://$PROJECT_DIR$/src/images/Output.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/lenna_xor_encripted.jpg">
+    <entry file="file://$PROJECT_DIR$/src/objects/elements/Branch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/elements/DataMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/buses/Bus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/elements/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="81" selection-start-line="81" selection-end-line="84" />
+          <folding>
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/buses/Clk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="75" selection-start-line="66" selection-start-column="75" selection-end-line="66" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#2879#2880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/elements/RegisterMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="69" column="111" selection-start-line="69" selection-start-column="111" selection-end-line="69" selection-end-column="111" />
+          <folding>
+            <element signature="e#3451#3452#0" expanded="true" />
+            <element signature="e#3476#3477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/lenna_customxorthens_encripted.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/lenna_xor_unencripted.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/lenna_srcv_unnencripted.jpg">
+    <entry file="file://$PROJECT_DIR$/src/images/lenna_customxorthens_4_encripted.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/elements/ControlUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="74" column="49" lean-forward="true" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
+        <state relative-caret-position="-14">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/lenna.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/procesor/Procesor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="596" selection-start-line="596" selection-end-line="596" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -566,47 +549,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/elements/VectorialAlu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="510">
+          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/lenna_xor_unencripted.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/lenna_xor_encripted.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/lenna_srcv_unnencripted.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/lenna_srcv_encripted.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/lenna.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-688">
-          <caret line="298" column="51" selection-start-line="298" selection-start-column="51" selection-end-line="298" selection-end-column="51" />
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ImageProcesing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="480" column="33" selection-start-line="480" selection-start-column="33" selection-end-line="480" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8113#8122#0" expanded="true" />
-            <element signature="e#8710#8719#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/procesor/Procesor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="601" column="7" selection-start-line="601" selection-start-column="7" selection-end-line="601" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#35676#35677#0" expanded="true" />
-            <element signature="e#35697#35698#0" expanded="true" />
-            <element signature="e#35769#35770#0" expanded="true" />
-            <element signature="e#35820#35821#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/images/lenna_custom_encripted.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/lenna_add_encripted.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/lenna_add_unnencripted.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
   </component>

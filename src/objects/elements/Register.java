@@ -7,10 +7,12 @@ import objects.buses.Bus;
 public class Register extends Element implements Runnable {
 
 	private ArrayList<Integer> data;
+	private boolean debug;
 	
 	public Register() {
 		super("register");
 		this.data = new ArrayList<Integer>();
+		this.debug = false;
 	}
 
 	@Override
@@ -18,14 +20,18 @@ public class Register extends Element implements Runnable {
 		if(this.clock != null && this.input.size() > 0 &&
 		   this.output.size() > 0 && this.input.size() == this.output.size()) {
 			if(clock.getState() == 1) { //save data
-				System.out.println("Register: storing data.");
+				if(debug) {
+					System.out.println("Register: storing data.");
+				}
 				data.clear();
 				for(int i = 0; i < input.size(); i++) {
 					this.data.add(this.input.get(i).getState());
 				}
 			}
 			else {//write data
-				System.out.println("Register: sending data.");
+				if(debug) {
+					System.out.println("Register: sending data.");
+				}
 				for(int i = 0; i < output.size(); i++) {
 					this.output.get(i).setState(data.get(i));
 				}
@@ -72,5 +78,9 @@ public class Register extends Element implements Runnable {
   public ArrayList<Integer> getData() {
 	  return data;
   }
+
+  public void setDebug(boolean debug){
+		this.debug = debug;
+	}
 
 }
